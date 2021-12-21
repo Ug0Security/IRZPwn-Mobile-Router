@@ -1,3 +1,5 @@
+shodan == html:"IRZ Mobile Router"
+
 default password on web interface
 root:root
 
